@@ -51,13 +51,14 @@ body{
     flex-direction: column;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 0 0 10px black;
      margin-top: 10px;}
 .departement:hover ul{
     max-height: 900px;/*show when hovering*/
     transition: max-height .4s ease-in;}
     .departement ul li{
         padding: 0px;
-        margin: 0px;
+        margin: 10px;
         font-size: 15px;
         color: #808080e8;
         transition: 0.5s;
