@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-<main>    
+    <header>
         <div class="navbar"><!-- creation of navigation bar -->
             <a href="https://tukuz.com/docplanner-group-logo-vector-svg/" target="_blank"><img class="logo" src="https://tukuz.com/wp-content/uploads/2020/11/docplanner-group-logo-vector.png" /></a>
         <ul>
@@ -26,6 +26,9 @@
             </li>
         </ul>
     </div>
+    </header>
+<main>    
+        
     <div class="title">
         <img src="../logo.png" class="img">
         <p>Making the healthcare experience more human</p>
@@ -36,73 +39,59 @@
     </div>
     <div class="flex-container">
         <!-- 3 flex items -->
-        <div class="flex-item item1">
+        <div class="flex-item item1">    <!-- card1 -->
           <img src="../medecin.png" alt="">
           <p class="titles">For patients</p>
           <p>Find a doctor, book a visit and solve any health-related doubt</p>
-          <form action="post" class="country">
-            <label for="country">Choose country</label>
+        
             
             <select id="country" >
+                <option value="country">choose country</option>
                 <option value="argentina">argentina</option>
                 <option value="brazil">brazil</option>
                 <option value="mexico">mexico</option>
                 <option value="peru">peru</option>
                 <option value="portugal">portugal</option>
             </select>
-    </form>
+  
           
         </div>
+        <!-- card2 -->
         <div class="flex-item item2">
             <img src="../kit-medical.png" alt="">
             <p class="titles">For doctors</p>
             <p>Save time managing visits and cut no-shows by half</p>
-            <form action="post" class="country">
-                <label for="country">Choose country</label>
-                
-                <select id="country" >
-                    <option value="argentina">argentina</option>
-                    <option value="italy">italy</option>
-                    <option value="mexico">Mexico</option>
-                    <option value="Peru">Peru</option>
-                    <option value="portugal">Portugal</option>
-                </select>
-        </form>
+            <select id="country" >
+                <option value="country">choose country</option>
+                <option value="argentina">argentina</option>
+                <option value="brazil">brazil</option>
+                <option value="mexico">mexico</option>
+                <option value="peru">peru</option>
+                <option value="portugal">portugal</option>
+            </select>
+        
         </div>
-
+           <!-- card3 -->
         <div class="flex-item item3">
             <img src="../hopital.png">
             <p class="titles">For clinics</p>
             <p>Deliver an exceptional patient experience in your clinic</p>
-            <form action="post" class="country">
-                <label for="country">2 to 20 specialists</label>
-                
-                <select id="country" >
-                    <option value="argentina">argentina</option>
-                    <option value="italy">italy</option>
-                    <option value="brazil">brazil</option>
-                    <option value="peru">peru</option>
-                    <option value="mexico">mexico</option>
-                </select>
-        </form>
-        <form action="post" class="country">
-            <label for="country">More than 20 spelcialists</label>
-            
             <select id="country" >
+                <option value="country">choose country</option>
                 <option value="argentina">argentina</option>
                 <option value="brazil">brazil</option>
+                <option value="mexico">mexico</option>
+                <option value="peru">peru</option>
                 <option value="portugal">portugal</option>
-                <option value="poland">poland</option>
-                <option value="spain">spain</option>
             </select>
-    </form>
         </div>
     </div>
     <div class="container2">
         <p>We are a global company<br>
             with local culture
             </p>
-        <ul> <!-- 6 flex items-->
+        <ul> 
+        <!-- 6 flex items-->
             <li>ZnanyLekarz</li>
             <li>Doctoralia</li>
             <li>Mio Dottore</li>
